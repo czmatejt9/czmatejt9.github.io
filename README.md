@@ -1,3 +1,3 @@
 # labyrint
  
-Website for downloading latest version of labyrint
+Stránka pro stahování hry labyrint
