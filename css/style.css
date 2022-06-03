@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(255, 255, 0)
+    background-color: white;
 }
 
 #stahnout {
@@ -9,7 +9,7 @@ body {
 
 #stahnout a {
     display: inline-block;
-    background-color: rgb(0, 250, 104);
+    background-color: black;
     width: 60px;
     height: 20px;
     padding: 10px;
