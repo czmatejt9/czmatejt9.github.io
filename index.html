@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html lang="cs">
-    <head>
-        <title>Labyrint</title>
-        <link rel="stylesheet" href="css/style.css">
-        <meta charset="utf-8">
-    </head>
-    <body>
+<head>
+    <title>Labyrint</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+</head>
+<body>
         <h1>Labyrint</h1>
         <h2>verze 1.1.2</h2>
     <p id="stahnout"><a href="game_files/labyrint_v1.1.2.zip" download>Stáhnout</a></p>
     <div id="space"></div>
-    <!--
-    <h3>Předběžný přístup</h3>
-    <h4>verze 1.1.0-beta</h4>
-    <p id="stahnout"><a id="pre" href="game_files/labyrint_v1.1.0-beta.zip" download="">Stáhnout</a></p>
-    -->
+    
+    <!-- Display the countdown timer in an element -->
+    <p id="timer"></p>
+
+    <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Jun 27, 2022 17:00:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="demo"
+    document.getElementById("timer").innerHTML = "Nová verze za: " + days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    // If the count down is finished, write some text
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("timer").innerHTML = "Nová verze za: již brzy!";
+    }
+    }, 1000);
+    </script>
     </body>
 </html>

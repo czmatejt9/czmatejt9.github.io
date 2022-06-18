@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    margin: 0px;
 }
 
 #space {
@@ -46,5 +47,9 @@ h3 {
 }
 
 h4  {
+    text-align: center;
+}
+
+#timer {
     text-align: center;
 }
