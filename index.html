@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 <head>
-    <title>Labyrint</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <title>The Maze</title>
 </head>
 <body>
-        <h1>Labyrint</h1>
-        <h2>verze 1.1.2</h2>
+        <h1>The Maze</h1>
+        <h2>version 1.1.2 (currently in czech language only)</h2>
     <p id="stahnout"><a href="game_files/labyrint_v1.1.2.zip" download>Stáhnout</a></p>
     <div id="space"></div>
     
@@ -34,13 +35,13 @@
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("timer").innerHTML = "Nová verze za: " + days + "d " + hours + "h "
+    document.getElementById("timer").innerHTML = "New version in: " + days + "d " + hours + "h "
     + minutes + "m " + seconds + "s ";
 
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("timer").innerHTML = "Nová verze za: již brzy!";
+        document.getElementById("timer").innerHTML = "New version in: SOON!";
     }
     }, 1000);
     </script>
