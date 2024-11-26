@@ -9,10 +9,11 @@
   color: #333;
 }
 
+/* use red color for bg */
 .App-header {
   font-family: 'Arial', sans-serif;
-  background-color: #6200ea;
-  color: white;
+  background-color: #f00;
+  color: black;
   padding: 50px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
