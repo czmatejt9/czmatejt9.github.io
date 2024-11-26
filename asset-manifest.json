@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/czmatejt.me/static/css/main.660949a1.css",
+    "main.js": "/czmatejt.me/static/js/main.f90cd797.js",
+    "static/js/453.253ccfac.chunk.js": "/czmatejt.me/static/js/453.253ccfac.chunk.js",
+    "index.html": "/czmatejt.me/index.html",
+    "main.660949a1.css.map": "/czmatejt.me/static/css/main.660949a1.css.map",
+    "main.f90cd797.js.map": "/czmatejt.me/static/js/main.f90cd797.js.map",
+    "453.253ccfac.chunk.js.map": "/czmatejt.me/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.660949a1.css",
+    "static/js/main.f90cd797.js"
+  ]
+}
